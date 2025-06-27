@@ -16,7 +16,7 @@ http://4532381-xa58658.twc1.net/
 
 2. Loyiha fayllarini "YouTube" nomli papkaga joylashtiring:
    Masalan:
-   ~/Projects/YouTube/youtube_download_and_search/
+   ~/Projects/YouTube/
 
 3. Terminal yoki CMD orqali papkaga o‘ting:
    cd youtube_download_and_search
