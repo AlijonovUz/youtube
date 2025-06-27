@@ -6,13 +6,13 @@ Ushbu loyiha Django REST Framework yordamida tuzilgan bo‘lib, YouTube videolar
 
 API tashqi xizmat bilan quyidagi URL orqali ishlaydi:
 http://4532381-xa58658.twc1.net/
-➡ Ushbu URL'ni o‘zgartirish mumkin (quyida batafsil).
+➡ Ushbu URL'ni o‘zgartirish shart (quyida batafsil).
 
 =========================================
 🚀 O‘rnatish va ishga tushirish:
 
 1. Loyihani yuklab oling:
-   git clone https://your-repo-link.git
+   git clone https://github.com/AlijonovUz/youtube.git
 
 2. Loyiha fayllarini "YouTube" nomli papkaga joylashtiring:
    Masalan:
@@ -112,10 +112,10 @@ Edit
 
 Loyiha quyidagicha tartibda saqlanishi tavsiya qilinadi:
 
-YouTube/
-└── youtube_download_and_search/
+https://example.uz/
+└── YouTube/
 ├── api/
-├── youtube_download_and_search/
+├── search/
 ├── manage.py
 └── README.txt
 
@@ -131,6 +131,8 @@ settings.py ichida DEBUG = False qiling
 ALLOWED_HOSTS ro‘yxatiga domen nomini kiriting
 
 Tashqi xizmatlar xavfsiz va autentifikatsiyalangan bo‘lishi lozim
+
+Eslatma: media/ papkasiga yuklangan audio/video fayllar yuklangan vaqtdan boshlab, 1 daqiqa o'tgach avtomatik tarzda o'chirilib yuboriladi! Bu vaqtni o'zgartirish mumkin, lekin server to'lib ketmasligi uchun default holatda shunday qilib sozlangan.
 
 =========================================
 ✅ TAYYOR!
