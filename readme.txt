@@ -59,22 +59,23 @@ Eslatma: bunday URL’lar bir nechta joyda ishlatilgan bo‘lishi mumkin, ularni
 📬 API Endpointlar (batafsil):
 
 1. 🔎 Video qidirish:
-   Endpoint: `GET /api/search/`
+   Endpoint: GET /api/search/
    Parametrlar:
-     - `title`: qidirilayotgan video nomi (majburiy)
-     - `page`: sahifa raqami (ixtiyoriy)
+     - title: qidirilayotgan video nomi (majburiy)
+     - page: sahifa raqami (ixtiyoriy)
    Misol:
-     `/api/search/?title=python+darslik&page=2`
+     /api/search/?title=python+darslik&page=2
 
 2. 🎵 Faqat audio faylni yuklab olish:
-   Endpoint: `POST /api/audio/`
+   Endpoint: POST /api/audio/
    JSON parametrlari:
-     - `url`: YouTube video havolasi (majburiy)
+     - url: YouTube video havolasi (majburiy)
    Misol:
-   ```json
+
    {
      "url": "https://www.youtube.com/watch?v=abc123"
    }
+   
 🎥 Video formatlar ro‘yxatini olish:
 Endpoint: POST /api/video/formats/
 JSON parametrlari:
@@ -82,12 +83,10 @@ JSON parametrlari:
 url: YouTube video havolasi (majburiy)
 Misol:
 
-json
-Copy
-Edit
 {
   "url": "https://www.youtube.com/watch?v=abc123"
 }
+
 📥 Video yuklab olish:
 Endpoint: POST /api/video/download/
 JSON parametrlari:
@@ -97,13 +96,11 @@ url: YouTube video havolasi (majburiy)
 format_id: kerakli format ID (majburiy)
 Misol:
 
-json
-Copy
-Edit
 {
   "url": "https://www.youtube.com/watch?v=abc123",
   "format_id": "18"
 }
+
 =========================================
 📁 Papka tuzilmasi:
 
