@@ -18,21 +18,18 @@ http://4532381-xa58658.twc1.net/
    Masalan:
    ~/Projects/YouTube/
 
-3. Terminal yoki CMD orqali papkaga o‘ting:
-   cd youtube_download_and_search
-
-4. Virtual muhit yarating va faollashtiring:
+3. Virtual muhit yarating va faollashtiring:
    python -m venv venv
    Linux/macOS: source venv/bin/activate
    Windows: venv\Scripts\activate
 
-5. Kutubxonalarni o‘rnating:
+4. Kutubxonalarni o‘rnating:
    pip install -r requirements.txt
 
-6. Django migratsiyalarini bajaring:
+5. Django migratsiyalarini bajaring:
    python manage.py migrate
 
-7. Serverni ishga tushiring:
+6. Serverni ishga tushiring:
    python manage.py runserver
 
 =========================================
